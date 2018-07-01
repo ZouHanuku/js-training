@@ -14,7 +14,7 @@ const multiply = (a, b) => {
     for (let i = 0; i < Math.abs(b); i++){
         result += a;
     }
-    return (b >= 0) ? result : -result;
+    return (b >= 0) ? result : -result; 
 }
 //* Begin of tests
 const assert = require('assert')

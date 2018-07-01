@@ -11,7 +11,7 @@ const total = arr => {
     for (let i of arr){
         result += i;
     }
-    return result;
+    return result; 
 }
 //* Begin of tests
 const assert = require('assert')
