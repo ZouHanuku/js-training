@@ -8,7 +8,7 @@
  */
 
 // Your code :
-
+const getLast = (parameter) => parameter[parameter.length -1];
 //* Begin of tests
 const assert = require('assert')
 

@@ -6,7 +6,7 @@
  *
  * @notions Functions, Data-Structures, Get
  */
-
+const get = (key) => sourceObject[key];
 // Provided code :
 const sourceObject = {
   num: 42,
